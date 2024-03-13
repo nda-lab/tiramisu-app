@@ -1,38 +1,92 @@
+/* src/App.css */
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: white;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tiramisu-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  background-color: #4d2b1f; /* Deep brown color */
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Adjust the font-family if needed */
+  color: #fff; /* White text for contrast */
+}
+
+.app-header {
+  background-color: #703c1e; /* Slightly lighter brown color for the header */
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slogan-container {
+  background-color: #b59595;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.slogan {
+  font-size: 2.5em; /* Increase the font size for a bigger impact */
+  font-weight: bold;
+  font-style: italic; /* Make it italic for a creative touch */
+  color: #3d1c13;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4); /* Enhance the text shadow for more appeal */
+  line-height: 1.2; /* Adjust line height for better readability */
+  margin-bottom: 10px; /* Add some spacing at the bottom for separation */
+}
+
+.slogan-highlight {
+  color: #70b5ca;
+}
+
+h1 {
+  font-family: 'Georgia', serif; /* Change the font-family if needed */
+  font-size: 2.5em; /* Adjust the font size as needed */
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em; /* Increase the font size for better visibility */
+  font-weight: bold;
+  color: #f7f7f7;
+}
+
+input {
+  padding: 8px;
+  font-size: 1em; /* Increase the font size for better visibility */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100px; /* Adjust the width based on your preference */
 }
