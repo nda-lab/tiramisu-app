@@ -44,7 +44,7 @@ const TiramisuApp = () => {
   };
 
   return (
-    <div className="App">
+    <div className="App" data-testid="tiramisu-app">
       <header className="App-header">
         <img
           src={logo}
