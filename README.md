@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Divine Tiramisu App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Divine Tiramisu App, your go-to destination for exploring and indulging in delightful tiramisu desserts! This React-based web application showcases a variety of exquisite tiramisu flavors, allowing users to browse, select, and add their favorite treats to the shopping cart.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Tiramisu Selection**: Explore a diverse range of mouthwatering tiramisu flavors, including Chocolate, Strawberry, Raspberry, and Caramel.
+- **Interactive Interface**: Enjoy a user-friendly interface that allows seamless browsing and interaction with the available tiramisu options.
+- **Customization**: Adjust the sugar content of your selected tiramisu to suit your preferences, with real-time calorie calculation.
+- **Shopping Cart**: Easily add selected tiramisu items to the shopping cart for a convenient checkout experience.
+- **Responsive Design**: Experience the Divine Tiramisu App across various devices, thanks to its responsive design.
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Browse Tiramisu Selection**: Explore the available tiramisu flavors displayed on the main screen.
+2. **Customize**: Optionally adjust the sugar content of your selected tiramisu using the provided input field.
+3. **Add to Cart**: Click the "Add to Cart" button to add your selected tiramisu to the shopping cart.
+4. **Review Cart**: Navigate to the shopping cart section to review and manage the items added for purchase.
+5. **Checkout**: Proceed to checkout to complete your order and indulge in Divine Tiramisu goodness!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Development
 
-### `npm test`
+Please note that the Divine Tiramisu App is currently in active development. While it's functional for testing purposes, new features and improvements are still being added. To run the Divine Tiramisu App locally for development purposes, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the development server with `npm start`.
+5. Access the app in your browser at `http://localhost:3000`.
 
-### `npm run build`
+## Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions to the Divine Tiramisu App are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
